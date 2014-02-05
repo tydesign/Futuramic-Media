@@ -123,17 +123,36 @@ footer {
 	height: 500px;
 	border-top: 1px solid #CD1041;
 	border-bottom: 1px solid #CD1041;
+	display: block;
 }
 
-#feature h1, #feature h2 {
-	float: right;
+#feature h1 {
+	text-align: center;
+	margin: 60px 0;
+}
+
+#feature-box {
+	border: 1px solid #fff;
+	margin: auto;
+	padding: 1%;
+	min-width: 320px;
+	max-width: 560px;
+	background: rgba(0,0,0,10%);
+}
+
+.intro-text {
+	font-family: 'Maven Pro', Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: .875em;
+	text-align: left;
+	line-height: 2em;
 }
 
 .fmred {
 	color: #CD1041;
-	font-family: 'Arvo', Georgia, serif;
-	font-weight: 700;
-	font-size: 0.846153846em;
+	font-size: 1.125em;
+	font-weight: 900;
+	text-transform: uppercase;
 }
 
 #services li {
