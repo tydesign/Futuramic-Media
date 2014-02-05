@@ -103,8 +103,6 @@ nav {
 
 section {
 	min-width: 320px;
-	border-top: 1px solid #CD1041;
-	border-bottom: 1px solid #CD1041;
 }
 
 footer {
@@ -123,6 +121,8 @@ footer {
 	padding-top: 30px;
 	background: url(images/transcendance.jpg) center center / cover;
 	height: 500px;
+	border-top: 1px solid #CD1041;
+	border-bottom: 1px solid #CD1041;
 }
 
 #feature h1, #feature h2 {
