@@ -191,6 +191,11 @@ footer {
 	border: 1px solid #fff;
 }
 
+.white-box:hover div{
+	background: #CD1041;
+	color: #fff;
+}
+
 #featured-work {
 	margin-top: 60px;
 	margin: 30px 25%;
