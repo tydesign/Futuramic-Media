@@ -54,9 +54,9 @@ table {
 /* ==================================== */
 
 
-/* * { 
+* { 
 	outline: 1px solid orange;
-}*/
+}
 
 body {
 	background: #000;
@@ -67,23 +67,27 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+	font-family: 'Maven Pro', Helvetica, sans-serif;
+	line-height: 1.000;
 	text-transform: uppercase;
+	font-style: normal;
 }
 
 h1{
-	font-family: 'Maven Pro', Helvetica, sans-serif;
-	line-height: 1.000;
 	font-size: 3.7500em; /* 60pt */
 	font-weight: 900;
-	font-style: normal;
 }
+
 h2{
-	font-family: 'Maven Pro', Helvetica, sans-serif;
-	line-height: 1.077;
 	font-size: 1.625em; /* 26pt */
 	font-weight: 700;
-	font-style: normal;
 }
+
+h3 {
+	font-size: 1.125em; /* 18pt */
+	font-weight: 700;
+}
+
 p{
 	font-size: 1.000em; /* 16pt */
 	font-weight: normal;
@@ -137,7 +141,7 @@ footer {
 	padding: 1%;
 	min-width: 320px;
 	max-width: 560px;
-	background-color: rgba(255,255,255,10%);
+	background-color: rgba(255,255,255,.1);
 }
 
 .intro-text {
@@ -155,8 +159,14 @@ footer {
 	text-transform: uppercase;
 }
 
-#services li {
+#services {
+	margin: auto;
 	display: inline;
+}
+
+.white-box {
+	border: 1px solid #fff;
+	width: 33%;
 }
 
 
