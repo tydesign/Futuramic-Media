@@ -62,7 +62,7 @@ body {
 	background: #000;
 	color: #fff;
 	font-size: 100.0%;
-	font-family: 'Arvo', Georgia, serif;
+	font-family: 'Maven Pro', Helvetica, sans-serif;
 	line-height: 1.563;
 }
 
@@ -169,7 +169,10 @@ footer {
 	width: 33%;
 }
 
-
+.header-bars {
+	border-top: 1px solid #CD1041;
+	border-bottom: 1px solid #CD1041;
+}
 
 
 
