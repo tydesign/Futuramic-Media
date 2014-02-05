@@ -137,7 +137,7 @@ footer {
 	padding: 1%;
 	min-width: 320px;
 	max-width: 560px;
-	background: rgba(0,0,0,10%);
+	background-color: rgba(255,255,255,10%);
 }
 
 .intro-text {
