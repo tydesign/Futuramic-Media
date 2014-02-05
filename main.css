@@ -160,19 +160,65 @@ footer {
 }
 
 #services {
-	margin: auto;
+	margin: 0 25%;
 	display: inline;
 }
 
+#services p {
+	margin-top: 30px;
+	text-align: left;
+	font-size: .8125em; /* 13px */
+}
+
+#services h3 {
+	border-bottom: 1px solid #363636;
+	padding-bottom: 20px;
+	margin-bottom: -10px;
+}
+
 .white-box {
+	border: 1px solid #363636;
+	display: inline-block;
+	width: 200px;
+	padding: 1%;
+	text-align: center;
+	margin: 30px 0 0 0;
+}
+
+.white-box:hover {
 	border: 1px solid #fff;
-	width: 33%;
+}
+
+#featured-work {
+	margin-top: 60px;
+	margin: 30px 25%;
 }
 
 .header-bars {
 	border-top: 1px solid #CD1041;
 	border-bottom: 1px solid #CD1041;
+	padding: 10px 0;
+	margin-bottom: 30px;
 }
+
+.icon {
+	margin: auto;
+	background: #363636;
+	height: 60px;
+	width: 60px;
+    border-radius: 100%;
+    text-align: center;
+	margin-bottom: 10px;
+    color: #000;
+	font-size: 2em;
+}
+
+.fa {
+	position: relative;
+	left: 0px;
+	top: 6px;
+}
+
 
 
 
