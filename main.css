@@ -93,7 +93,6 @@ p{
 header {
 	text-align: center;
 	padding: 0 40px 0 40px;
-	border-bottom: 1px solid #CD1041;
 	min-width: 320px;
 }
 
@@ -104,6 +103,8 @@ nav {
 
 section {
 	min-width: 320px;
+	border-top: 1px solid #CD1041;
+	border-bottom: 1px solid #CD1041;
 }
 
 footer {
