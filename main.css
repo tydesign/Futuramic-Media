@@ -88,15 +88,20 @@ h3 {
 	font-weight: 700;
 }
 
-p{
+p {
 	font-size: 1.000em; /* 16pt */
 	font-weight: normal;
 	font-style: normal;
 }
 
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
 header {
 	text-align: center;
-	padding: 0 40px 0 40px;
+	padding: 0 40px;
 	min-width: 320px;
 }
 
@@ -105,12 +110,32 @@ nav {
 	margin-top: 20px;
 }
 
+nav li {
+	display: inline;
+	margin: 10px 0 0 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 30px;
+	vertical-align: middle;
+}
+
+nav a:hover {
+	background: #CD1041;
+}
+
 section {
 	min-width: 320px;
 }
 
 footer {
-	background: #fff;
+	background: #CD1041;
+	/* border-top: 1px solid #CD1041; */
+	text-align: center;
+	padding: 10px;
+	font-size: .8125em;
 }
 
 .logo {
@@ -132,7 +157,7 @@ footer {
 
 #feature h1 {
 	text-align: center;
-	margin: 60px 0;
+	margin: 160px 0 60px 0;
 }
 
 #feature-box {
@@ -154,6 +179,15 @@ footer {
 
 .fmred {
 	color: #CD1041;
+	font-family: 'Maven Pro', Helvetica, sans-serif;
+	font-size: 1.125em;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.fmwhite {
+	color: #fff;
+	font-family: 'Maven Pro', Helvetica, sans-serif;
 	font-size: 1.125em;
 	font-weight: 900;
 	text-transform: uppercase;
@@ -180,15 +214,16 @@ footer {
 	border: 1px solid #363636;
 	display: inline-block;
 	width: 200px;
-	height: 260px;
+	height: 300px;
 	padding: 1%;
 	text-align: center;
-	margin: 30px 0 0 0;
+	margin: 30px 10px 0 0;
 	vertical-align: top;
 }
 
 .white-box:hover {
 	border: 1px solid #fff;
+	background-color: rgba(255,255,255,.15);
 }
 
 .white-box:hover div{
@@ -201,11 +236,15 @@ footer {
 	margin: 30px 25%;
 }
 
+#featured-work div {
+	text-align: center;
+}
+
 .header-bars {
 	border-top: 1px solid #CD1041;
 	border-bottom: 1px solid #CD1041;
 	padding: 10px 0;
-	margin-bottom: 30px;
+	margin: 60px 0 30px 0;
 }
 
 .icon {
@@ -217,21 +256,96 @@ footer {
     text-align: center;
 	margin-bottom: 10px;
     color: #000;
-	font-size: 2em;
+	font-size: 2.375em; 
 }
 
 .fa {
 	position: relative;
 	left: 0px;
-	top: 6px;
+	top: 2px;
+}
+
+#featured-work a:hover {
+	background-color: rgba(255,255,255,.15);
+	border: 1px solid #CD1041;
+}
+
+.client-work{
+	border: 1px solid #363636;
+	display: inline-block;
+	width: 200px;
+	height: 120px;
+	padding: 1%;
+	text-align: center;
+	margin: 30px 10px 0 0;
+	vertical-align: top;
+}
+
+#bagger-daves {
+	background: url(images/bagger-daves.svg) no-repeat center center / contain;
+	background-size: 80px;
+}
+
+#childrens-eyecare {
+	background: url(images/childrens-eye-care.svg) no-repeat center center / contain;
+	background-size: 90px;
+}
+
+#renegades {
+	background: url(images/renegades.svg) no-repeat center center / contain;
+	background-size: 120px;
 }
 
 
+#livio-connect {
+	background: url(images/livio-connect.jpg) no-repeat center center / cover;
+}
 
+#jeff-daniels {
+	background: url(images/jeff-daniels.jpg) no-repeat center center / cover;
+}
 
+#mackinac-island {
+	background: url(images/mackinac-island.jpg) no-repeat center center / cover;
+}
 
+#tomtom-mazda {
+	background: url(images/tomtom-mazda.jpg) no-repeat center center / cover;
+}
 
+#bbe {
+	background: url(images/bbe.jpg) no-repeat center center / cover;
+}
 
+#service-mold {
+	background: url(images/service-mold.jpg) no-repeat top center / cover;
+}
 
+#detroit-axle {
+	background: url(images/detroit-axle.jpg) no-repeat center center / cover;
+}
 
+#omnigraphics {
+	background: url(images/omnigraphics.jpg) no-repeat center center / cover;
+}
 
+#sparrowtv {
+	background: url(images/sparrowtv.jpg) no-repeat center center / cover;
+}
+
+.fa-map-marker {
+	font-size: 1.5em;
+	margin-left: 10px;
+}
+
+.fa-facebook {
+	margin: 0 10px;
+}
+
+.fa-twitter {
+	margin-right: 5px;
+}
+
+#contact a:hover {
+	color: #CD1041;
+}
