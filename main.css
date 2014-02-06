@@ -157,7 +157,7 @@ form {
 input, textarea {
 	display: block;
 	background: #1D1D1D;
-	border: 0px;
+	border: 0;
 	color: #555252;
 	font-family: 'Maven Pro', Helvetica, sans-serif;
 	font-size: .8125em;
@@ -339,7 +339,6 @@ input[type=submit]:hover {
 	background: url(images/renegades.svg) no-repeat center center / contain;
 	background-size: 120px;
 }
-
 
 #livio-connect {
 	background: url(images/livio-connect.jpg) no-repeat center center / cover;
