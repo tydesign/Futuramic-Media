@@ -88,7 +88,7 @@ h3 {
 	font-weight: 700;
 }
 
-p {
+p, label {
 	font-size: 1.000em; /* 16pt */
 	font-weight: normal;
 	font-style: normal;
@@ -112,7 +112,6 @@ nav {
 
 nav li {
 	display: inline;
-	margin: 10px 0 0 0;
 }
 
 nav a {
@@ -128,6 +127,7 @@ nav a:hover {
 
 section {
 	min-width: 320px;
+	text-align: center;
 }
 
 footer {
@@ -346,6 +346,8 @@ footer {
 	margin-right: 5px;
 }
 
-#contact a:hover {
-	color: #CD1041;
+.social a:hover {
+	color: #000;
 }
+
+#contact-form
