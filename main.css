@@ -107,13 +107,18 @@ a {
 
 header {
 	text-align: center;
-	padding: 0 40px;
 	min-width: 320px;
+	position: fixed;
+	height: 72px;
+	width: 100%;
+	background: #000;
+	border-bottom: 1px solid #CD1041;
+	z-index: 99999;
 }
 
 nav {
 	float: right;
-	margin-top: 20px;
+	margin: 20px 60px 0 0;
 }
 
 nav li {
@@ -134,6 +139,7 @@ nav a:hover {
 section {
 	min-width: 320px;
 	text-align: center;
+	z-index: -99999;
 }
 
 footer {
@@ -180,7 +186,6 @@ input[type=submit]:hover {
 
 .logo {
   display: block;
-  text-indent: -9999px;
   height: 72px;
   background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDEwMC43NSA3MiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTAwLjc1IDcyIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cG9seWdvbiBmaWxsPSIjMjMyMjIyIiBwb2ludHM9IjEwMC43LDAgMCwwIDAsNzIgMTAwLjcsNzIgMTAwLjcsMCIvPjxwb2x5bGluZSBmaWxsPSIjRkZGRkZGIiBwb2ludHM9IjkzLjMsNy41IDkzLjMsNjQuNSA3LjUsNjQuNSA3LjUsNy41IDkzLjMsNy41Ii8+PHBvbHlnb24gZmlsbD0iIzIzMjIyMiIgcG9pbnRzPSI2My4zLDQ0LjIgNzIuNiwzMC43IDcyLjYsNTUuOSA4My4xLDU1LjkgODMuMSwxNS4yIDcyLjgsMTUuMiA2My4zLDI5LjEgNTMuNywxNS4yIDUzLjQsMTUuMiAxNywxNS4yIDE3LDU1LjkgMjcuNSw1NS45IDI3LjUsNDAgNTAuMyw0MCA0NC4yLDMxLjQgMjcuNSwzMS40IDI3LjUsMjMuOCA0OS4xLDIzLjgiLz48L3N2Zz4=) no-repeat center center / contain;
 }

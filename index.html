@@ -7,19 +7,23 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link href="http://fonts.googleapis.com/css?family=Antic+Slab:400|Maven+Pro:900,700,500,400" rel="stylesheet" type="text/css">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
 	<script src="js/modernizr.js"></script> 
 	<!-- MODERNIZR DEVELOPER VERSION -->
 	<!-- MODERNIZR NEEDS TO LOAD IN HEAD, DO NOT MOVE TO BOTTOM -->
 </head>
 <body>
 	<header role="banner">
-		<nav>
-			<ul>
-				<li><a href="#featured-work">Recent Work</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-		<div class="logo"></div>
+		<div>
+			<nav>
+				<ul>
+					<li><a href="#featured-work" class="smoothScroll">Recent Work</a></li>
+					<li><a href="#contact-form" class="smoothScroll">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="logo"></div>
+		</div>
 	</header>
 	<section>
 		<div id="feature">
@@ -54,32 +58,32 @@
 		<div id="featured-work">
 			<h3 class="header-bars">Recent Work</h3>
 			<div>
-				<a href="http://baggerdaves.com/" target="blank" id="bagger-daves"></a>
-				<a href="http://childrenseyecaremich.com/" target="blank" id="childrens-eyecare"></a>
+				<a href="http://baggerdaves.com/" target="blank" id="bagger-daves" title="Bagger Dave's &#8211; Web Development"></a>
+				<a href="http://childrenseyecaremich.com/" target="blank" id="childrens-eyecare" title="Children's Eye Care &#8211; Branding and Web Design &#38; "></a>
 				<span id="renegades">&nbsp;</span>
 			</div>
 			<div>
-				<a href="http://livioconnect.com/" target="blank" id="livio-connect"></a>
-				<a href="http://baggerdaves.com/" target="blank" id="jeff-daniels"></a>
-				<a href="http://mackinacisland.org/" target="blank" id="mackinac-island"></a>
+				<a href="http://livioconnect.com/" target="blank" id="livio-connect" title="Livio &#8211; Branding and Web Design &#38; Development"></a>
+				<a href="http://jeffdaniels.com" target="blank" id="jeff-daniels" title="Jeff Daniels &#8211; Web Development"></a>
+				<a href="http://mackinacisland.org/" target="blank" id="mackinac-island" title="Mackinac Island Conventions &#38; Vistors Bureau &#8211; Web and Mobile Design &#38; Development"></a>
 			</div>
 			<div>
-				<a href="http://baggerdaves.com/" target="blank" id="tomtom-mazda"></a>
-				<a href="http://bbemusic.com/" target="blank" id="bbe"></a>
-				<a href="http://service-mold.com/" target="blank" id="service-mold"></a>
+				<a href="hhttp://mazdanav.com/" target="blank" id="tomtom-mazda" title="Mazda navigarion by TomTom &#8211; Web Development"></a>
+				<a href="http://bbemusic.com/" target="blank" id="bbe" title="BBEmusic &#8211; Web Development"></a>
+				<a href="http://service-mold.com/" target="blank" id="service-mold" title="Service Mold &#38; Aersospace &#8211; Branding and Web Design &#38; Development"></a>
 			</div>
 			<div>
-				<a href="http://detroitaxle.com" target="blank" id="detroit-axle"></a>
-				<a href="http://omnigraphics.com" target="blank" id="omnigraphics"></a>
-				<a href="http://sparrowtv.org" target="blank" id="sparrowtv" title="Sparrow Hospital"></a>
+				<a href="http://detroitaxle.com" target="blank" id="detroit-axle" title="Detroit Axle &#8211; Web Development"></a>
+				<a href="http://omnigraphics.com" target="blank" id="omnigraphics" title="Omnigraphics - Branding and Web Design &#38; Development"></a>
+				<a href="http://sparrowtv.org" target="blank" id="sparrowtv" title="Sparrow Hospital &#8211; Web Development"></a>
 			</div>
 		</div>
 		<div id="contact-form">
 			<h3 class="header-bars">Let's Build Something</h3>
-			<p class="intro-text"><span class="fmred">Technology moves fast. </span>There's no need to chase it. We make it work for you. So let's start building the right solutions that work for you. We would to hear from you.</p>
+			<p class="intro-text"><span class="fmred">Technology moves fast. </span>There's no need to chase it. Let us develop the right solutions for you. Send us a message and let's build it.</p>
 			<form action="mailto:transmit@FuturamicMedia.com" method="post" enctype="text/plain">
 				<input type="text" name="name" value="First, Last Name" size="50"/>
-				<input type="text" name="mail" value="Email Address" size="50"/ >
+				<input type="text" name="mail" value="Email Address" size="50"/>
 				<textarea  name="message" maxlength="1000" cols="48" rows="6"></textarea>
 				<input type="submit" value="Send" />
 			</form>
@@ -87,7 +91,7 @@
 	</section>
 	<footer>
 		<div class="fmred-bkg">
-			<p><a href="https://www.google.com/maps?q=Futuramic+Media&sll=42.475743,-83.0026685&sspn=0.0060774,0.0109864&t=m&cid=0x27ff91351151ac12&hq=Futuramic+Media&z=16&iwloc=A" target="_blank" class="social"><i class="fa fa-map-marker"></i></a><span class="fmwhite"> Futuramic Media</span> | 24727 Gibson, Warren, MI 48089 USA 586.759.5217<a href="http://www.facebook.com/pages/Futuramic-Media/42808080613" class="social" target="_blank" alt="Futuramic Media on Facebook"><i class="fa fa-facebook"></i></a><a href="http://twitter.com/FuturamicMedia" class="social" target="_blank" alt="Futuramic Media on Twitter"><i class="fa fa-twitter"></i></a></p>
+			<p><a href="https://www.google.com/maps/preview/place/Futuramic+Media/@42.475743,-83.0026685,17z/data=!3m1!4b1!4m2!3m1!1s0x8824d0b7dca1fb27:0x27ff91351151ac12" target="_blank" class="social"><i class="fa fa-map-marker"></i></a><span class="fmwhite"> Futuramic Media</span> | 24727 Gibson, Warren, MI 48089 USA 586.759.5217<a href="http://www.facebook.com/pages/Futuramic-Media/42808080613" class="social" target="_blank" title="Futuramic Media on Facebook"><i class="fa fa-facebook"></i></a><a href="http://twitter.com/FuturamicMedia" class="social" target="_blank" title="Futuramic Media on Twitter"><i class="fa fa-twitter"></i></a></p>
 		</div>
 	</footer>
 </body>
