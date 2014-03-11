@@ -238,7 +238,7 @@ input[type=submit]:hover {
 }
 
 #services {
-	margin: 0 25%;
+	/* margin: 0 25%; */
 	display: inline;
 }
 
